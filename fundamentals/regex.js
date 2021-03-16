@@ -1,7 +1,7 @@
 const str = `
-RegExr was created by gskinner.com.
-
-Regular exp
+The RegExr was the
+test
+9st
 `
 
 
@@ -20,7 +20,20 @@ to search for "." --> /.
 const matched = str.match(/.a/g);
 const matched = str.match(/\./g); */
 
-const matched = str.match(/\w/g);
+/* \w ---> for char(other char - only "_" & Alphanumeric)
+   \W ---> !(\w)
+   \s ---> space,tabs,linebreak
+   \S ---> !(\s)
+   \w{m,n} --> matches word with 4 or 5 char
+*/
+
+/* [] ---> char gruping 
+ |  ---> similar to or character
+ ^  ---> beginning of the string or  line (for multiline use /m modifier)
+ $  ---> end of the string or  line (for multiline use /m modifier)
+const matched = str.match(/[w]as/g);
+const matched = str.match(/[a-z0-9]s/g);
+const matched = str.match(/[t | T]he/g); */
 
 
 console.log(matched)
