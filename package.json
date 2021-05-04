@@ -1,0 +1,23 @@
+{
+  "name": "js_repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Prototype_JS.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikhilMalagi/JS_Repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikhilMalagi/JS_Repo/issues"
+  },
+  "homepage": "https://github.com/NikhilMalagi/JS_Repo#readme",
+  "dependencies": {
+    "moment": "^2.29.1",
+    "simple-git": "^2.37.0"
+  }
+}
